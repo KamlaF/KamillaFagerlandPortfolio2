@@ -1,0 +1,75 @@
+body{
+    background-color:#F2E8DF;
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+
+.mainContainer{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+}
+
+.Container:hover {
+    transform: translate3D(0,-7px,0) scale(1.10); /* move up slightly and zoom in */
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; /* zoom in */
+    cursor: pointer;
+    background-color: black;
+    color: #F2E8DF;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 20px;
+    
+  }
+
+.Container{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   flex-direction: column;
+  
+}
+img
+{
+   border-radius: 10px;
+   width: 450px;
+   height: 400px;
+   margin: 10px;
+   padding: 5px;
+}
+
+
+
+.logo{
+    height: 200px;
+}
+
+.workHeader{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.workH1Container{
+    margin-left: 150px;
+}
+
+.workH1{
+    font-size: 40px;
+}
+
+.workFooter{
+    background-color: black;
+    height: 250px;
+}
+
+/*home*/
+
+.homeImg{
+    height: 600px;
+}
