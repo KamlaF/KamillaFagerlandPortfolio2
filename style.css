@@ -301,7 +301,7 @@ span{
 }
 
 .containerFrontpage .section:nth-child(1){
-    background: #A8898C url(/images/woman-4117708_1280.jpg);
+    background: #A8898C url(https://kamillafagerland.com/woman-4117708_1280.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -309,7 +309,7 @@ span{
 }
 
 .containerFrontpage .section:nth-child(2){
-    background: #8A8F81 url(/images/notepad-3316997_1280.jpg);
+    background: #8A8F81 url(https://kamillafagerland.com/notepad-3316997_1280.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -317,7 +317,7 @@ span{
 }
 
 .containerFrontpage .section:nth-child(3){
-    background: #C2B08D  url(/images/ink-5067880_1280.jpg);
+    background: #C2B08D  url( https://kamillafagerland.com/ink-5067880_1280.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
