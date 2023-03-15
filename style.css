@@ -12,21 +12,20 @@ body{
 
 .header2 {
     display: flex;
-    justify-content: space-between;
-   
-   
+    justify-content: space-between; 
   }
 
   nav {
     position: absolute;
+    margin-bottom: 60px;
+    
   }
 
   nav a {
     color: #000;
     font-size: 30px;
     text-decoration: none;
-    margin-top: 0;
-    margin-bottom: 100px;
+   
   }
 
   nav,
@@ -47,11 +46,10 @@ body{
     display: none;
   }
   
- 
-
   nav a:hover{
-    color: #C2B08D;
-    text-decoration:underline;
+   background-color: #000;
+   color: #F2E8DF;
+   padding: 2px;
   }
 
   @media (min-width: 804px) {
@@ -128,6 +126,7 @@ img
 .logo{
     height: 200px;
     margin-bottom: 0;
+    
 }
 
 .workHeader{
@@ -139,6 +138,9 @@ img
     
 }
 
+.workP{
+  font-size: 20px;
+}
 .workH1Container{
     margin-left: 200px;
 }
@@ -189,18 +191,17 @@ img
 /*frontpage*/
 
 .frontpageWelcomeContainer{
-    height: 40em;
+    height: 30em;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+   
 }
 
 .FrontpageText{
     max-width: 500px;
     margin-left: 80px;
-   
-  
-   margin-top: 100px;
+    margin-top: 100px;
 }
 
 .aboutH1{
@@ -262,6 +263,7 @@ span{
     animation-duration: 3s;
     animation-iteration-count:initial;
     
+    
   }
 
   .helloText{
@@ -274,8 +276,8 @@ span{
   }
 
 .frontpageImg{
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     padding: 0;
     box-shadow: 0px 1px 2px rgba(0,0,0,0.2), 
     0px 2px 4px rgba(0,0,0,0.2), 
@@ -367,6 +369,8 @@ span{
     0px 8px 16px rgba(0,0,0,0.2)
 
 }
+
+
 
 .content{
     text-decoration: none;
