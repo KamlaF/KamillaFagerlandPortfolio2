@@ -6,8 +6,6 @@ body{
 }
 
 
-
-
 /*nav*/
 
 .header2 {
@@ -138,6 +136,8 @@ img
     
 }
 
+
+
 .workP{
   font-size: 20px;
 }
@@ -146,33 +146,45 @@ img
 }
 
 .workH1{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .workFooter{
     background-color: #A8898C;
     height: 150px;
-    display: flex;
+    
+}
+
+.copyDiv{
+  display: flex;
+ padding-top: 100px;
 }
 
 .copyrightSymb{
     margin-left: 20px;
-  
+   
 }
 
 .aboutFooter{
-    background-color: #A8898C;
-    height: 100px;
-    display: flex;
-
+   background-color: #A8898C;
+   height: 150px;
+   position: fixed;
+   padding: 10px 10px 0px 10px;
+   bottom: 0;
+   width: 100%;
+   height: 150px;
+   display: flex;
+           
+  
 }
 
-.contactFooter{
-    background-color: #A8898C;
-    height: 100px;
-    
-
+.aboutBody{
+  display: flex;
+  flex-direction: column;
+ 
 }
+
+
 
 .aboutFront, .contactFront{
     display: flex;
@@ -182,8 +194,12 @@ img
     
 }
 
+.contactFront{
+ margin-top: 100px;
+}
+
 .fa-github{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 
@@ -191,7 +207,7 @@ img
 /*frontpage*/
 
 .frontpageWelcomeContainer{
-    height: 30em;
+    height: 40em;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -202,6 +218,7 @@ img
     max-width: 500px;
     margin-left: 80px;
     margin-top: 100px;
+    
 }
 
 .aboutH1{
@@ -259,7 +276,8 @@ span{
 
 
 
-.frontpageH1{animation-name: grow-shrink;
+.frontpageH1{
+    animation-name: grow-shrink;
     animation-duration: 3s;
     animation-iteration-count:initial;
     
@@ -288,7 +306,7 @@ span{
 .containerFrontpage{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow: auto;
     scroll-snap-type: y mandatory;
 
@@ -347,21 +365,33 @@ span{
 
 }
 
-.containerFrontpage .section .content .frontpageP{
-    background: #F2E8DF;
-    color: #111;
-    font-size: 25px;
-    display: inline-flex;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    width: 200px;
-    justify-content: center;
+.frontpageP{
+  width: 160px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 25px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px 0px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 
+.frontpageP:hover{
+  background-color: #A8898C;
+    box-shadow: 0px 15px 20px #F2E8DF(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
 
 }
 
-.frontpageP:hover,
+
 .frontpageH2:hover{
     box-shadow: 0px 1px 2px rgba(0,0,0,0.2), 
     0px 2px 4px rgba(0,0,0,0.2), 
@@ -390,6 +420,10 @@ span{
      
     }
 
+    .frontpageWelcomeContainer{
+      height: 60em;
+  }
+
     .containerFrontpage{
         height: 60vh;   
     }
@@ -415,6 +449,14 @@ span{
         margin-top: 0;
         margin-bottom: 10px;
       }
+
+      .rainydaysButton{
+        margin-bottom: 20px;
+      }
+
+      .workH1Container{
+        margin-left: 40px;
+    }
 
       
 }
@@ -518,6 +560,10 @@ span{
         padding: 15px;
         font-size: 20px;
         
+      }
+
+      .rainydaysButton{
+        margin-bottom: 20px;
       }
 
       
