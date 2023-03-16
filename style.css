@@ -152,7 +152,6 @@ img {
 .aboutFooter {
   background-color: #a8898c;
   height: 150px;
-  position: fixed;
   padding: 10px 10px 0px 10px;
   bottom: 0;
   width: 100%;
@@ -171,6 +170,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
 }
 
 .contactFront {
