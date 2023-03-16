@@ -538,8 +538,12 @@ span {
     padding-top: 10px;
   }
 
-  .contactFront {
+  .contactFront, .aboutFront {
     margin-top: 100px;
     min-height: 60vh;
+  }
+
+  .aboutFront{
+    margin-top: 100px;
   }
 }
