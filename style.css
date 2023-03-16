@@ -154,15 +154,8 @@ img {
 }
 
 .aboutFooter {
-  position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    color: #fff;
+  background-color: #a8898c;
+  height: 150px;
 }
 
 .aboutBody {
@@ -182,6 +175,7 @@ img {
 
 .contactFront {
   margin-top: 100px;
+  min-height: 80vh;
 }
 
 .fa-github {
@@ -464,7 +458,7 @@ span {
 
   .logo{
     width: 200px;
-    height: 120px;
+    height: 100px;
   }
 
   .containerFrontpage .section .content .frontpageH2 {
@@ -537,20 +531,15 @@ span {
     margin-bottom: 20px;
   }
 
-  .aboutFooter {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    color: #fff;
-  }
+  
 
   .copyDiv {
     display: flex;
     padding-top: 10px;
+  }
+
+  .contactFront {
+    margin-top: 100px;
+    min-height: 60vh;
   }
 }
