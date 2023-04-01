@@ -366,6 +366,45 @@ span {
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 50px;
+}
+
+.skills,
+.training {
+  text-align: center;
+}
+
+.skills ul,
+.training ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills li,
+.training li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.skills li i,
+.training li i {
+  font-size: 40px;
+  margin-right: 10px;
+  color: #020202;
+}
+
+
 /*tablet*/
 @media only screen and (min-width: 481px) and (max-width: 803px) {
   .frontpageWelcomeContainer {
